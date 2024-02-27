@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <head>
+        <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+        <meta charset="utf-8">  
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" zoom="1.0">
+        <!--for making the website more responsive-->
+          <meta http-equiv="X-UA-compatible" content="ie=">
+          <!--for Favicon-->
+          <link rel="shortcut icon" type="image/png" href="https://img.techpowerup.org/200517/prodipto.png">
+          <!--for CSS-->
+          <link rel="stylesheet" type="text/css" href="netflixstyles.css">
+        <!--link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css"/ -->
+    </head>
+    
+    <body>
+        <header class="showcase">
+            <div class="showcase-top">
+                <img src="https://i.postimg.cc/9FbcQ15H/net.jpg">	
+                <!--for the netflix icon-->
+            </div>
+            
+            <nav>
+                <a href="#" class="btn btn-m"> Sign in <i class="fas fa-chevron-right btn-icon"></i>
+                </a>
+            </nav>
+            <!--inside the following div we could write : style="background-image: url('https://img.techpowerup.org/200613/netflix-backgroung-image.jpg');"-->
+            <div class="showcase-content" >
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <h1>Unlimited movies, TV<br>shows and more...</h1>
+                <br><br>
+                <div class="search-box">
+                <input class="search-txt" type="text" name="box" placeholder="Email address."><a href="#" class="btn  btn-x1">TRY IT NOW> <i class="fas fa-chevron-right btn-icon"></i>
+                </a>			
+                </div>
+            </div>
+                    
+            <div>
+                <h3>Ready to watch?  Enter your Email to create or restart your membership. </h3>
+                <br><br>				
+            </div>
+        </header>
+                   
+    
+        <div class="enjoy-tv">
+            <h2> Enjoy on your TV. </h2>
+            <p>Watch on your smart-TV, PlayStation,<br>XBox, ChromeCast, AppleTV, blu-<br>ray players and more.</p>
+            <img src="https://img.techpowerup.org/200613/tv.png">
+        </div>
+    
+        <div class="Watch-offline">
+            <h2>Download your shows<br>to watch offline.</h2>
+            <p>Save your favourites easily and<br>always have something to watch.</p>
+            <img src="https://img.techpowerup.org/200613/mobile-0819.jpg ">
+        </div>
+    
+        <div class="watch-everywhere">
+            <h2>Watch Everywhere.</h2>
+            <p>Stream unlimited movies and TV<br>shows on your phon, tablet, laptop,<br>and TV.</p>
+            <img src="https://img.techpowerup.org/200613/watch-everywhere-device-pile-in.png">
+        </div>
+    
+        <div class="ask-question">
+            <h1>Frequently Asked Questions...</h1>
+            <button>What is Netfiix?</button>
+            <button>How much does Netflix costs?</button><br><br>
+            <button>Where can I watch?</button><br><br>
+            <button>How do I cancel?</button><br><br>
+            <button>What can I watch on netflix?</button>
+        </div>
+    
+        <div>
+            <input class="search-txt" type="text" name="box" placeholder="Email address"><a href="#" class="btn btn-x1">TRY IT NOW><i class="fas fa-chevron-right btn-icon"></i></a>
+        </div>
+        <br>
+    
+        <div>
+            <h3>Ready to watch? Enter your email to create or restart your membership.</h3><br><br>
+        </div>
+    
+        <footer class="page-down">
+                <p>Quetions? Call 000-800-040-1842</p>
+                <p><a href="https://www.instagram.com/rahulkrishoffl/?utm_source=ig_web_button_share_sheet">Instagram</a></p>
+                <p><a href="#">Investor Relations.</a></p>
+                <p><a href="#">Privacy.</a></p>
+                <p><a href="#">Speed Test.</a></p>
+                <p>Netflix India</p>	
+                <p><a href="#"></a>Help Center.</p>
+                <p><a href="#">Jobs.</a></p>
+                <p><a href="#">Cookie Preference.</a></p>
+                <p><a href="#">Legal Notices.</a></p>
+                <p><a href="#">Account.</a></p>
+                <p><a href="#">Way to Watch.</a></p>
+                <p><a href="#">Corporate Information.</a></p>
+                <p><a href="#">Netflix Originals.</a></p>
+                <p><a href="#">Media Centre.</a></p>	
+                <p><a href="#">Terms of Use.</a></p>
+                <p><a href="#">Contact us</a></p>
+        </footer>
+    </body>
+      
+      
+      
+      
+      
+      
+        <!--
+          - custom js link
+        -->
+        <script src="./assets/js/script.js"></script>
+      
+        <!--
+          - ionicon link
+        -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      
+      </body>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="https://i.ibb.co/ZNCntw7/Picsart-23-08-25-16-53-30-806.png"
+                            alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h3 class="chatbox__heading--header">Chat Support</h3>
+                        <p class="chatbox__description--header">Hi,My name is Iris. How can I help you?</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <!-- Your messages will appear here -->
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" alt="Chat Icon" /></button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+
+</html>
+
